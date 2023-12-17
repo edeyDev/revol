@@ -11,8 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     const li = document.createElement('li');
                     li.innerHTML = `
                         <div class="card">
-                            <p>Nombre: ${values[1]}</p>
-                            <p>Mienmbros: ${values[2]}</p>
+                            <p><b>${values[1]}</b></p>
+                            <br/>
+                            <p>${values[2]} <b>Miembros</b> </p>
+                            <br/>
                             <p>Enlace: <a href="https://www.facebook.com/groups/${values[0]}">Ver aquí</a></p>
                         </div>
                     `;
