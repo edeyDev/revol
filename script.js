@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 document.addEventListener('DOMContentLoaded', function () {
         fetch('datos.csv')
             .then(response => response.text())
