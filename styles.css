@@ -33,3 +33,7 @@ h1 {
     margin: 0;
     color: #333;
 }
+
+.centrado {
+    text-align: center;
+}

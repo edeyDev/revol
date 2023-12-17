@@ -11,11 +11,13 @@ document.addEventListener('DOMContentLoaded', function () {
                     const li = document.createElement('li');
                     li.innerHTML = `
                         <div class="card">
-                            <p><b>${values[1]}</b></p>
+                        <div class="centrado">
+                        <p><b>${values[1]}</b></p>
                             <br/>
                             <p>${values[2]} <b>Miembros</b> </p>
                             <br/>
-                            <p>Enlace: <a href="https://www.facebook.com/groups/${values[0]}">Ver aquí</a></p>
+                            <p><a href="https://www.facebook.com/groups/${values[0]}">TOCAR AQUI</a></p>
+                        </div>
                         </div>
                     `;
                     ul.appendChild(li);
