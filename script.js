@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             <br/>
                             <p>${values[2]} <b>Miembros</b> </p>
                             <br/>
-                            <p><a href="https://www.facebook.com/groups/${values[0]}">TOCAR AQUI</a></p>
+                            <p><a href="https://www.facebook.com/groups/${values[0]}">VER AQUI</a></p>
                         </div>
                         </div>
                     `;
